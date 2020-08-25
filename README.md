@@ -1,6 +1,4 @@
-# portfolio
-
-starting my web development journey
+# starting my web development journey
 
 Learning HTML, CSS
 
