@@ -1,9 +1,15 @@
 body {
 	font-family: 'Noto Sans', sans-serif;
+	color: #001f3f;
+	background-color: azure;
 }
 
 h3,h4 {
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .quote {
@@ -76,7 +82,7 @@ h3,h4 {
 }
 
 .profile-picture:hover {
-	box-shadow: 0 12px 20px 0 rgba(34, 60, 80, .30);
+	box-shadow: 0 12px 20px 1px rgba(34, 60, 80, .30);
 }
 
 .project-image {
@@ -89,7 +95,7 @@ h3,h4 {
 
 .project-image:hover {
 	filter: brightness(0.75);
-	box-shadow: 0 8px 12px 0 rgba(34, 60, 80, .20);
+	box-shadow: 0 8px 12px 1px rgba(34, 60, 80, .20);
 }
 
 .project-image-wrapper {
@@ -127,6 +133,8 @@ form {
 
 form input[type="submit"] {
 	width: 250px;
+	background-color: #80DEEA;
+	border-color: #00ACC1;
 }
 
 .submit-button-wrapper {
@@ -139,10 +147,6 @@ form input[type="submit"] {
 	}
 }
 
-body {
-	background-color: azure;
-}
-
 .container > div {
 	margin: 20px auto;
 }
@@ -151,8 +155,4 @@ hr {
 	border: 0;
 	height: 3px;
 	background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-}
-
-body {
-    color: #001f3f;
 }
