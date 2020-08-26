@@ -14,7 +14,7 @@
 			<h3>Student finding his ikigai</h3>
 			<p class="quote">{{ still finding... }}</p>
 		</div>
-
+		<hr>
 		<div class="about-grid">
 
 			<div class="i-am">
@@ -36,15 +36,26 @@
 				</ul>
 			</div>
 		</div>
-
+		<hr>
 		<div>
 			<h3 class="projects-heading">My Projects</h3>
 			<div class="projects-grid">
-
-				<img class="project-image" src="https://images.unsplash.com/photo-1550170618-bd1ec6a9dd2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" width="300" height="300" alt="red and white pole near dock" />
-				<img class="project-image" src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80" width="300" height="300" />
-				<img class="project-image" src="https://images.unsplash.com/photo-1547561090-e2c1104d363f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=60" width="300" height="300"/>
-				<img class="project-image" src="https://images.unsplash.com/photo-1528158134711-e89943f34728?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=60" width="300" height="300" />
+				<div class="project-image-wrapper">
+					<h4 class="project-number">Project 1</h4>
+					<img class="project-image" src="https://images.unsplash.com/photo-1550170618-bd1ec6a9dd2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="red and white pole near dock" />
+				</div>
+				<div class="project-image-wrapper">
+					<h4 class="project-number">Project 2</h4>
+					<img class="project-image" src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80"  />
+				</div>
+				<div class="project-image-wrapper">
+					<h4 class="project-number">Project 3</h4>
+					<img class="project-image" src="https://images.unsplash.com/photo-1547561090-e2c1104d363f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=60" />
+				</div>
+				<div class="project-image-wrapper">
+					<h4 class="project-number">Project 4</h4>
+					<img class="project-image" src="https://images.unsplash.com/photo-1597513894288-06368b34b474?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"  />				
+				</div>
 			</div>
 		</div>
 
@@ -67,13 +78,16 @@
 			<div>
 				<form action="#">
 					<label for="email">
-						E-mail <input type="email" id="email" placeholder="Enter your email" />			
+						<h4>E-mail</h4> 
+						<input type="email" id="email" placeholder="Enter your email" />			
 					</label>
 					<label for="message">
-						Message: <textarea id="message">Your Message</textarea>
-
+						<h4>Message</h4>
+						<textarea id="message">Your Message</textarea>
 					</label>
-					<input type="submit" valid="Send Message" />
+					<div class="submit-button-wrapper">
+						<input type="submit" valid="Send Message" />
+					</div>				
 				</form>
 			</div>
 		</div>
